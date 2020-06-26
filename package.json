@@ -9,7 +9,7 @@
     "format": "yarn prettier --write **/*.ts",
     "format-check": "yarn prettier --check **/*.ts",
     "lint": "eslint src/**/*.ts",
-    "dist": "yarn ncc build",
+    "dist": "yarn build && yarn ncc build",
     "test": "yarn jest",
     "all": "yarn build && yarn format && yarn lint && yarn test && yarn dist"
   },
