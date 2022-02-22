@@ -1584,10 +1584,10 @@ escodegen@^2.0.0:
   optionalDependencies:
     source-map "~0.6.1"
 
-eslint-config-sentry@^1.70.0:
-  version "1.70.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-sentry/-/eslint-config-sentry-1.70.0.tgz#b132f6b73183e32c8d0004ee2c19df71682fe15b"
-  integrity sha512-PqYNXFN+5cOnLeraoeRpHrSJ+0+85FXv9Sfmb7IMbPDjTrKz3tgGCT5a7nCQh+/Z8Y81lV8DxRCVYbyVwxUp4w==
+eslint-config-sentry@^1.76.0:
+  version "1.76.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-sentry/-/eslint-config-sentry-1.76.0.tgz#3ed18e277686dbb085c602c6d285fb583c24cfa7"
+  integrity sha512-6RNp6duS8NTwLhMS6uOKJSTzC3F7Re38x7D5mNHSTj7R1QFjL4iMHec86Ph64S7ogT7YRKfYW+1S0kOYWImMgw==
 
 eslint-plugin-jest@^25.3.2:
   version "25.3.4"
