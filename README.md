@@ -114,7 +114,7 @@ So, what are you waiting for? Go ahead and start customizing your action!
 1. Format, test, and build the action
 
    ```bash
-   npm run all
+   yarn all
    ```
 
    > This step is important! It will run [`ncc`](https://github.com/vercel/ncc)
