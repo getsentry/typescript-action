@@ -29,20 +29,16 @@ jobs:
           cache: npm
 
       - name: Install Dependencies
-        id: npm-ci
-        run: npm ci
+        run: yarn install --frozen-lockfile
 
       - name: Check Format
-        id: npm-format-check
-        run: npm run format:check
+        run: yarn format:check
 
       - name: Lint
-        id: npm-lint
-        run: npm run lint
+        run: yarn lint
 
       - name: Test
-        id: npm-ci-test
-        run: npm run ci-test
+        run: yarn ci-test
 
   test-action:
     name: GitHub Actions Test
