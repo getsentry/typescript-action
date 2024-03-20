@@ -42,7 +42,7 @@ jobs:
 
       - name: Rebuild the dist/ directory
         run: |
-          yarn dist
+          yarn bundle
 
       # This will fail the workflow if the PR wasn't created by Dependabot.
       - name: Compare Directories
