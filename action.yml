@@ -1,11 +1,21 @@
-name: 'Your name here'
+name: 'The name of your action here'
 description: 'Provide a description here'
 author: 'Sentry'
+# Add your action's branding here. This will appear on the GitHub Marketplace.
+branding:
+  icon: 'heart'
+  color: 'red'
 inputs:
-  milliseconds: # change this
+  milliseconds:
+    description: 'Your input description here'
     required: true
-    description: 'input description here'
-    default: 'default value if applicable'
+    default: '1000'
+
+# Define your outputs here.
+outputs:
+  time:
+    description: 'Your output description here'
+
 runs:
-  using: 'node12'
-  main: 'dist/index.js'
+  using: node20
+  main: dist/index.js
